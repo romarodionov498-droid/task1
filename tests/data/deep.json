@@ -1,0 +1,33 @@
+{
+  "type": "dir",
+  "children": {
+    "etc": {
+      "type": "dir",
+      "children": {
+        "config.txt": {"type": "file", "content": "debug=1"}
+      }
+    },
+    "home": {
+      "type": "dir",
+      "children": {
+        "user": {
+          "type": "dir",
+          "children": {
+            "docs": {
+              "type": "dir",
+              "children": {
+                "report.txt": {"type": "file", "content": "Отчёт"},
+                "photo.bin": {
+                  "type": "file",
+                  "encoding": "base64",
+                  "content": "iVBORw0KGgo="
+                }
+              }
+            },
+            "todo.txt": {"type": "file", "content": "купить хлеб"}
+          }
+        }
+      }
+    }
+  }
+}

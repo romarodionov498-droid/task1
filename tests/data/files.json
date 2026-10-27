@@ -1,0 +1,9 @@
+{
+  "type": "dir",
+  "children": {
+    "readme.txt": {"type": "file", "content": "Это README"},
+    "notes.txt": {"type": "file", "content": "заметки"},
+    "data.bin": {"type": "file", "encoding": "base64", "content": "SGVsbG8="},
+    "logo.bin": {"type": "file", "encoding": "base64", "content": "iVBORw0KGgo="}
+  }
+}
