@@ -1,6 +1,0 @@
-{
-  "type": "dir",
-  "children": {
-    "x.bin": {"type": "file", "encoding": "base64", "content": "!!!"}
-  }
-}
